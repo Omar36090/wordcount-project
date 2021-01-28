@@ -1,0 +1,18 @@
+<a href="{% url 'index' %}" style="border:2px solid red ; border-radius:10px ; padding:10px ; background:red; color:#fff ; font-size:18px;font-weight:bold;text-decoration:none;float :right;box-shadow: 1px 1px 4px rgb(121, 120, 120);">Start Again</a>
+<h1>Hey From Count page!</h1>
+<br><br>
+<hr>
+<h2>The count of Words = {{stringtextarea}}</h2>
+<hr>
+<h2>The count of Char = {{thirdd}} <h2>
+<hr>
+<h1>Your Text IS :</h1>
+<h2>{{yourtext}}</h2>
+<hr>
+<h2>Count Every Word : </h2>
+<h4>
+{% for key,value in dic %}
+  {{key}} ==> {{value}}
+  <br>
+{% endfor%}
+</h4>

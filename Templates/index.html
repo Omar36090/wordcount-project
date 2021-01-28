@@ -1,0 +1,8 @@
+
+<h1>Hello From Templates</h1>
+<form action="{% url 'count' %}">
+  <textarea cols="40" rows="10" name="textarea" ></textarea>
+  <br>
+  <input type="submit" value="Count!" style=" color:#fff ;background:red; font-size:18px ; margin-top:5px ; padding:10px;font-weight:bold;border:1px solid red;border-radius:10px;box-shadow: 1px 1px 4px rgb(121, 120, 120);" />
+  <a href="{% url 'about' %}" style=" margin: 10px;border:2px solid red ; border-radius:10px ; padding:10px ; background:red; color:#fff ; font-size:18px;font-weight:bold;text-decoration:none;box-shadow: 1px 1px 4px rgb(121, 120, 120);">About</a>
+</form>
